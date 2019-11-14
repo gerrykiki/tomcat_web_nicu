@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9b886e4.chunk.css",
+    "main.js": "/static/js/main.28a129fa.chunk.js",
+    "main.js.map": "/static/js/main.28a129fa.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.7ececfe9.chunk.css": "/static/css/2.7ececfe9.chunk.css",
+    "static/js/2.389b3d68.chunk.js": "/static/js/2.389b3d68.chunk.js",
+    "static/js/2.389b3d68.chunk.js.map": "/static/js/2.389b3d68.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74cc8cb9e62e09b54008446e8ad35cfa.js": "/precache-manifest.74cc8cb9e62e09b54008446e8ad35cfa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7ececfe9.chunk.css.map": "/static/css/2.7ececfe9.chunk.css.map",
+    "static/css/main.c9b886e4.chunk.css.map": "/static/css/main.c9b886e4.chunk.css.map",
+    "static/media/Chooseedit.svg": "/static/media/Chooseedit.def74a6e.svg",
+    "static/media/Control.svg": "/static/media/Control.aa66ed95.svg",
+    "static/media/Edit.svg": "/static/media/Edit.a7d4c3ff.svg",
+    "static/media/Historyview.svg": "/static/media/Historyview.0467b7bb.svg",
+    "static/media/RT.svg": "/static/media/RT.41b174eb.svg",
+    "static/media/Search.svg": "/static/media/Search.d99586da.svg",
+    "static/media/Wardview.svg": "/static/media/Wardview.6c75f5a7.svg",
+    "static/media/delete.svg": "/static/media/delete.870c0c52.svg",
+    "static/media/details.svg": "/static/media/details.bc0482ca.svg",
+    "static/media/dragdown.svg": "/static/media/dragdown.0cdfe02a.svg",
+    "static/media/edit2.svg": "/static/media/edit2.8fc62700.svg",
+    "static/media/file1.svg": "/static/media/file1.6f94c891.svg",
+    "static/media/file2.svg": "/static/media/file2.2b64f736.svg",
+    "static/media/filter.svg": "/static/media/filter.43b66bba.svg",
+    "static/media/Layout.css": "/static/media/hospital.253b7757.png"
+  }
+}

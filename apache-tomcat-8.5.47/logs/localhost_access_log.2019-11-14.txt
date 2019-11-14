@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:22 +0800] "GET / HTTP/1.1" 200 2060
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:23 +0800] "GET /static/js/main.28a129fa.chunk.js HTTP/1.1" 200 269408
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:23 +0800] "GET /static/css/2.7ececfe9.chunk.css HTTP/1.1" 200 524183
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:23 +0800] "GET /static/css/main.c9b886e4.chunk.css HTTP/1.1" 200 2350
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:23 +0800] "GET /static/js/2.389b3d68.chunk.js HTTP/1.1" 200 1727093
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:23 +0800] "GET /manifest.json HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/Wardview.6c75f5a7.svg HTTP/1.1" 200 3747
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/Historyview.0467b7bb.svg HTTP/1.1" 200 2783
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/Control.aa66ed95.svg HTTP/1.1" 200 5534
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/details.bc0482ca.svg HTTP/1.1" 200 2394
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/Edit.a7d4c3ff.svg HTTP/1.1" 200 1599
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/edit2.8fc62700.svg HTTP/1.1" 200 1599
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/file2.2b64f736.svg HTTP/1.1" 200 2099
+0:0:0:0:0:0:0:1 - - [14/Nov/2019:12:18:33 +0800] "GET /static/media/file1.6f94c891.svg HTTP/1.1" 200 2069
