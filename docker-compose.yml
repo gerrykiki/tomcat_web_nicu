@@ -1,0 +1,21 @@
+version: "2"
+services:
+  nicu:
+    build: Tomcat/
+    container_name: nicu-tomcat
+    ports:
+      - "80:8080"
+    volumes:
+      - ~/Document/SQL_Data:/apache-tomcat-8.5.47/logs
+    links:
+      - cassandra
+    depends_on:
+      - cassandra
+  cassandra:
+    image: cassandra
+    container_name: nicu-cassandra
+    ports:
+      - "7777:9042"
+    volumes:
+      - ~/Document/SQL_Data:/var/lib/cassandra
+      

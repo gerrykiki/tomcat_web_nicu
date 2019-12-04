@@ -1,0 +1,376 @@
+18-Nov-2019 17:11:26.336 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+18-Nov-2019 17:11:26.346 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+18-Nov-2019 17:11:26.347 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+18-Nov-2019 17:11:26.347 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Nov-2019 17:11:26.347 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+18-Nov-2019 17:11:26.349 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Nov-2019 17:11:26.349 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+18-Nov-2019 17:11:26.349 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10
+18-Nov-2019 17:11:26.350 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+18-Nov-2019 17:11:26.353 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:11:26.354 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:11:26.355 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2019 17:11:26.355 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2019 17:11:26.355 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2019 17:11:26.356 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/conf/logging.properties
+18-Nov-2019 17:11:26.356 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2019 17:11:26.357 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Nov-2019 17:11:26.357 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Nov-2019 17:11:26.357 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Nov-2019 17:11:26.357 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Nov-2019 17:11:26.357 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:11:26.358 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:11:26.358 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/temp
+18-Nov-2019 17:11:26.358 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/gerrykikimacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Nov-2019 17:11:26.426 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:11:26.474 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 17:11:26.493 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:11:26.496 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 17:11:26.496 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 972 ms
+18-Nov-2019 17:11:26.592 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Nov-2019 17:11:26.593 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+18-Nov-2019 17:11:26.632 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/hl7_server.war]
+18-Nov-2019 17:11:27.510 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+18-Nov-2019 17:11:31.365 資訊 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2019 17:11:31.435 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/hl7_server.war] has finished in [4,802] ms
+18-Nov-2019 17:11:31.439 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/ROOT]
+18-Nov-2019 17:11:31.461 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/ROOT] has finished in [22] ms
+18-Nov-2019 17:11:31.465 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:11:31.479 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:11:31.482 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 4985 ms
+18-Nov-2019 17:24:02.422 資訊 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/hl7_server]
+18-Nov-2019 17:24:02.461 資訊 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/HL7-0.0.1-SNAPSHOT.war]
+18-Nov-2019 17:24:03.017 警告 [localhost-startStop-2] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+18-Nov-2019 17:24:05.831 資訊 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2019 17:24:05.842 資訊 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/HL7-0.0.1-SNAPSHOT.war] has finished in [3,381] ms
+18-Nov-2019 17:25:12.402 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Nov-2019 17:25:12.402 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:25:12.419 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:25:12.428 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Nov-2019 17:25:12.491 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:25:12.500 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:25:12.504 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:25:12.505 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:25:17.001 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+18-Nov-2019 17:25:17.009 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+18-Nov-2019 17:25:17.009 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+18-Nov-2019 17:25:17.010 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Nov-2019 17:25:17.010 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+18-Nov-2019 17:25:17.010 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Nov-2019 17:25:17.011 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+18-Nov-2019 17:25:17.011 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10
+18-Nov-2019 17:25:17.011 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+18-Nov-2019 17:25:17.012 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:25:17.012 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:25:17.013 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2019 17:25:17.013 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2019 17:25:17.013 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2019 17:25:17.014 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/conf/logging.properties
+18-Nov-2019 17:25:17.014 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2019 17:25:17.014 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Nov-2019 17:25:17.014 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Nov-2019 17:25:17.014 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Nov-2019 17:25:17.015 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Nov-2019 17:25:17.015 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:25:17.016 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:25:17.016 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/temp
+18-Nov-2019 17:25:17.016 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/gerrykikimacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Nov-2019 17:25:17.084 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:25:17.125 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 17:25:17.151 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:25:17.154 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 17:25:17.155 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 886 ms
+18-Nov-2019 17:25:17.242 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Nov-2019 17:25:17.242 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+18-Nov-2019 17:25:17.277 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/HL7-0.0.1-SNAPSHOT.war]
+18-Nov-2019 17:25:17.671 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+18-Nov-2019 17:25:21.802 資訊 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2019 17:25:21.871 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/HL7-0.0.1-SNAPSHOT.war] has finished in [4,593] ms
+18-Nov-2019 17:25:21.872 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/ROOT]
+18-Nov-2019 17:25:21.898 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/ROOT] has finished in [26] ms
+18-Nov-2019 17:25:21.902 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:25:21.917 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:25:21.920 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 4764 ms
+18-Nov-2019 17:39:54.465 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Nov-2019 17:39:54.467 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:39:54.477 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:39:54.484 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Nov-2019 17:39:54.616 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:39:54.621 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:39:54.625 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:39:54.626 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:41:29.507 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+18-Nov-2019 17:41:29.515 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+18-Nov-2019 17:41:29.516 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+18-Nov-2019 17:41:29.516 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Nov-2019 17:41:29.516 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+18-Nov-2019 17:41:29.517 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Nov-2019 17:41:29.517 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+18-Nov-2019 17:41:29.517 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10
+18-Nov-2019 17:41:29.518 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+18-Nov-2019 17:41:29.518 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:41:29.518 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:41:29.520 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2019 17:41:29.520 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2019 17:41:29.521 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2019 17:41:29.521 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/conf/logging.properties
+18-Nov-2019 17:41:29.521 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2019 17:41:29.522 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Nov-2019 17:41:29.522 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Nov-2019 17:41:29.522 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Nov-2019 17:41:29.522 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Nov-2019 17:41:29.523 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:41:29.523 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47
+18-Nov-2019 17:41:29.523 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/temp
+18-Nov-2019 17:41:29.523 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/gerrykikimacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Nov-2019 17:41:29.597 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:41:29.845 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 17:41:29.917 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:41:29.920 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 17:41:29.930 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1234 ms
+18-Nov-2019 17:41:30.118 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Nov-2019 17:41:30.119 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+18-Nov-2019 17:41:30.163 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/nicu_server.war]
+18-Nov-2019 17:41:31.147 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+18-Nov-2019 17:41:43.270 資訊 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2019 17:41:43.466 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/nicu_server.war] has finished in [13,301] ms
+18-Nov-2019 17:41:43.468 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/ROOT]
+18-Nov-2019 17:41:43.489 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/apache-tomcat-8.5.47/webapps/ROOT] has finished in [21] ms
+18-Nov-2019 17:41:43.493 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 17:41:43.502 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 17:41:43.504 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 13572 ms
+18-Nov-2019 18:24:22.830 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Nov-2019 18:24:22.831 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 18:24:22.843 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 18:24:22.851 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Nov-2019 18:24:25.268 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 18:24:25.270 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 18:24:25.278 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 18:24:25.279 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:32:55.033 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+18-Nov-2019 20:32:55.042 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+18-Nov-2019 20:32:55.043 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+18-Nov-2019 20:32:55.044 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Nov-2019 20:32:55.044 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+18-Nov-2019 20:32:55.047 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Nov-2019 20:32:55.047 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+18-Nov-2019 20:32:55.047 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10
+18-Nov-2019 20:32:55.048 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+18-Nov-2019 20:32:55.048 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:32:55.049 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:32:55.051 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2019 20:32:55.052 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2019 20:32:55.053 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2019 20:32:55.053 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/conf/logging.properties
+18-Nov-2019 20:32:55.054 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2019 20:32:55.054 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Nov-2019 20:32:55.054 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Nov-2019 20:32:55.054 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Nov-2019 20:32:55.054 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Nov-2019 20:32:55.055 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:32:55.055 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:32:55.055 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/temp
+18-Nov-2019 20:32:55.056 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/gerrykikimacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Nov-2019 20:32:55.138 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 20:32:55.201 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 20:32:55.224 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:32:55.226 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2019 20:32:55.226 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1132 ms
+18-Nov-2019 20:32:55.341 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Nov-2019 20:32:55.341 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+18-Nov-2019 20:32:55.376 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/nicu_server.war]
+18-Nov-2019 20:32:55.881 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+18-Nov-2019 20:33:13.787 資訊 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2019 20:33:13.828 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/nicu_server.war] has finished in [18,452] ms
+18-Nov-2019 20:33:13.830 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/ROOT]
+18-Nov-2019 20:33:13.856 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/ROOT] has finished in [27] ms
+18-Nov-2019 20:33:13.860 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 20:33:13.871 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:33:13.873 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 18645 ms
+18-Nov-2019 20:34:27.366 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+18-Nov-2019 20:34:27.374 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+18-Nov-2019 20:34:27.374 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+18-Nov-2019 20:34:27.375 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Nov-2019 20:34:27.375 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+18-Nov-2019 20:34:27.375 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Nov-2019 20:34:27.376 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+18-Nov-2019 20:34:27.376 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10
+18-Nov-2019 20:34:27.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+18-Nov-2019 20:34:27.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:34:27.378 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:34:27.379 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2019 20:34:27.379 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2019 20:34:27.379 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2019 20:34:27.379 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/conf/logging.properties
+18-Nov-2019 20:34:27.379 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2019 20:34:27.380 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Nov-2019 20:34:27.380 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Nov-2019 20:34:27.380 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Nov-2019 20:34:27.380 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Nov-2019 20:34:27.380 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:34:27.381 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47
+18-Nov-2019 20:34:27.381 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/temp
+18-Nov-2019 20:34:27.381 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/gerrykikimacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Nov-2019 20:34:27.467 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 20:34:27.505 嚴重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:455)
+		at java.base/sun.nio.ch.Net.bind(Net.java:447)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+18-Nov-2019 20:34:27.507 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:34:27.509 嚴重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:455)
+		at java.base/sun.nio.ch.Net.bind(Net.java:447)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+18-Nov-2019 20:34:27.510 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 923 ms
+18-Nov-2019 20:34:27.589 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Nov-2019 20:34:27.590 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+18-Nov-2019 20:34:27.620 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/nicu_server.war]
+18-Nov-2019 20:34:27.977 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+18-Nov-2019 20:34:30.901 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Nov-2019 20:34:30.902 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 20:34:30.914 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:34:30.922 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Nov-2019 20:34:33.360 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 20:34:33.367 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:34:33.382 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Nov-2019 20:34:33.385 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2019 20:34:40.636 資訊 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2019 20:34:40.675 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/nicu_server.war] has finished in [13,055] ms
+18-Nov-2019 20:34:40.676 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/ROOT]
+18-Nov-2019 20:34:40.695 資訊 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/ROOT] has finished in [19] ms
+18-Nov-2019 20:34:40.698 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 13187 ms
+18-Nov-2019 23:35:49.060 資訊 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/nicu_server]
+18-Nov-2019 23:35:49.090 嚴重 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.google.common.util.concurrent.AbstractFuture.executeListener RuntimeException while executing runnable com.google.common.util.concurrent.Futures$4@5a20a21e with executor MoreExecutors.directExecutor()
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:257)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2279)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:857)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1329)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1182)
+		at com.datastax.driver.core.Cluster$Manager$ClusterCloseFuture.onFuturesDone(Cluster.java:2753)
+		at com.datastax.driver.core.CloseFuture$Forwarding$1.onSuccess(CloseFuture.java:81)
+		at com.datastax.driver.core.CloseFuture$Forwarding$1.onSuccess(CloseFuture.java:73)
+		at com.google.common.util.concurrent.Futures$4.run(Futures.java:1132)
+		at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:435)
+		at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:900)
+		at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:634)
+		at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:98)
+		at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1135)
+		at com.datastax.driver.core.GuavaCompatibility.addCallback(GuavaCompatibility.java:112)
+		at com.datastax.driver.core.GuavaCompatibility.addCallback(GuavaCompatibility.java:100)
+		at com.datastax.driver.core.CloseFuture$Forwarding.<init>(CloseFuture.java:71)
+		at com.datastax.driver.core.Cluster$Manager$ClusterCloseFuture.<init>(Cluster.java:2732)
+		at com.datastax.driver.core.Cluster$Manager.close(Cluster.java:1788)
+		at com.datastax.driver.core.Cluster$Manager.access$200(Cluster.java:1390)
+		at com.datastax.driver.core.Cluster.closeAsync(Cluster.java:601)
+		at com.datastax.driver.core.Cluster.close(Cluster.java:612)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+		at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1034)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1027)
+		at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+		at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+		at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+		at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:516)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:112)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4744)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5403)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:834)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1417)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1344)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:236)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:182)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 56 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.GeneratedConstructorAccessor7.newInstance(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:233)
+		... 59 more
+	Caused by: java.nio.file.NoSuchFileException: /Users/gerrykikimacbook/Desktop/nicu_tomcat/Tomcat/apache-tomcat-8.5.47/webapps/nicu_server/WEB-INF/lib/metrics-core-4.0.5.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1763)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1225)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+		at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:844)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:247)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		... 63 more
